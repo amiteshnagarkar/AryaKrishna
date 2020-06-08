@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  background: #000000;
+  background: #e6e6e6;
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
@@ -820,19 +820,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: #081e5b;
+  background: #FFFFFF;
   background-size: cover;
   padding: 40px 0;
 }
 
 #call-to-action .cta-title {
-  color: #fff;
+  color: #000000;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
-  color: #fff;
+  color: #000000;
 }
 
 #call-to-action .cta-btn {
@@ -845,8 +845,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #fff;
-  color: #fff;
+  border: 3px solid #000000;
+  color: #000000;
 }
 
 #call-to-action .cta-btn:hover {
@@ -930,7 +930,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  /*color: #000;*/
+  color: #000000;
 }
 
 #contact .contact-info h3 {
@@ -938,11 +939,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #000000;
 }
 
 #contact .contact-info a {
-  color: #000;
+  /*color: #000;*/
+  color: #000000;
 }
 
 #contact .contact-info a:hover {
